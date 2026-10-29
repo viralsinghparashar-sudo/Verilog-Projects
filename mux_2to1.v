@@ -2,7 +2,7 @@ module top_module (
     input a,
     input b,
     input sel,
-    output out
+    output out 
 );
 
 assign out = sel ? b : a;
